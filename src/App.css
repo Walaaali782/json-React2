@@ -1,0 +1,146 @@
+
+.row {
+   --bs-gutter-x: 0rem;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+--bs-gutter-x: 0rem;
+}
+
+.App h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+  padding: 24px 0;
+  background: #ddd;
+}
+a{
+  text-decoration: none;
+  color: none;
+}
+
+.sidebar{
+ 
+  text-align: center;
+  margin: -10px;
+  padding: 20px;
+
+}
+.sidebar .per a{
+ color: #046846;
+}
+.per,
+.pro,
+.location{
+  padding-bottom: 30px;
+}
+.sidebar .pro a{
+  color: #000000;
+ }
+
+ .sidebar .location a{
+  color:#e91e63
+ }
+
+  .col-10 {
+    width: 83.33333333%;
+    top: -7%;
+    position: relative;
+    left: 16%;
+}
+
+.col-3 {
+
+  width: 27%;
+}
+.persons {
+  text-align: center;
+  position: relative;
+margin-left: 170px;
+margin-top: -100px;
+}
+.product,
+.locations{
+  text-align: center;
+  position: relative;
+margin-left: 170px;
+
+}
+.locations{
+margin-top: 90px;
+}
+  .card {
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للبطاقة */
+    border-radius: 8px; /* حواف مستديرة */
+    overflow: hidden; /* لتجنب تجاوز المحتوى */
+    transition: transform 0.2s; /* تأثير تكبير عند التمرير */
+    background-color: #fff; /* لون خلفية البطاقة */
+    text-align: center; /* توسيط النص */
+    padding: 10px ;
+    margin: 25px 15px;
+  }
+  
+  /* تكبير البطاقة عند التمرير */
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+
+  /* عنوان البطاقة */
+  .card-title {
+    font-size: 1.2em;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  /* نص البطاقة */
+  .card-text {
+    font-size: 0.9em;
+    color: #4f4d4d;
+    margin-bottom: 16px;
+  }
+  .card-product{
+    font-size: 1.05em;
+    color:#046846;
+    margin-bottom: 16px;
+  }
+  .card-body{
+    text-align: center;
+   
+  }
+  /* زر البطاقة */
+  .btn-primary {
+    background-color: #047b53;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+     transition: background-color 0.2s;
+  }
+  .prolack{
+    background-color: #000;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+     transition: background-color 0.2s;
+  }
+  .local{
+    background-color:#e91e63;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+     transition: background-color 0.2s;
+  }
+  /* تغيير لون الزر عند التمرير */
+  .btn-primary:hover {
+    background-color: #046846;
+  }
+  .namm{
+    margin: 0 10px;
+    margin-bottom: 60px;
+  }
+  
